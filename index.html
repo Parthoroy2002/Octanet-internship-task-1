@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Enthusiasts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+    
+    <div class="menu-bar" id="menuBar">
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </div>
+
+    <div class="drawer" id="drawer">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <header class="header">
+        <h1>Welcome to Car Enthusiasts</h1>
+        <p>Discover the latest and greatest in the world of cars.</p>
+        <button class="cta-button" onclick="showModal()">Learn More</button>
+    </header>
+
+    <section class="gallery">
+        <div class="gallery-item">
+            <img src="images/image.2.jpg" alt="Car 1">
+            <p>Model 1</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image.3.jpg" alt="Car 2">
+            <p>Model 2</p>
+        </div>
+        <div class="gallery-item">
+            <img src="images/image.4.jpg" alt="Car 3">
+            <p>Model 3</p>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="hideModal()">&times;</span>
+            <h2>About Car Enthusiasts</h2>
+            <p>Car Enthusiasts is your go-to platform for all things cars. Stay tuned for more updates and exciting news in the automotive world.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2>Contact Us</h2>
+        <p>Email: parthoroy2002@gmail.com.com</p>
+        <p>Phone: +919828759565</p>
+    </footer>
+
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+
+    <script src="styles.js"></script>
+</body>
+</html>
